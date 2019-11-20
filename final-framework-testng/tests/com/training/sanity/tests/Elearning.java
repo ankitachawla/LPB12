@@ -47,7 +47,7 @@ public class Elearning {
 		Thread.sleep(1000);
 		driver.quit();
 	}
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void validLoginTest() {
 		
 		loginEl.sendUserName("admin");
@@ -56,7 +56,7 @@ public class Elearning {
 		screenShot.captureScreenShot("screenshot/First");
 	}
 	
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void lostPasswordLink()
 	{
 		loginEl.sendUserName("admin");
